@@ -31,6 +31,9 @@ description: Saude Bliss (saudebliss.com) is a health and wellness company surfa
   upstream portfolio record marks it is_api_provider=false, so this remains an
   identity-only company profile rather than an API provider.
 url: https://raw.githubusercontent.com/api-evangelist/saude-bliss/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "Its public presence is a Cloudflare-protected WordPress marketing website; a July 2026 enrichment pass found no public API surface, no OpenAPI/Swagger, no .well-known endpoints, no security.txt and no"
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
